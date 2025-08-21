@@ -38,7 +38,7 @@ public class checkout extends HttpServlet {
 
         // Validate selected items
         if (selectedItems == null || selectedItems.length == 0) {
-            response.getWriter().println("<h1>Error: No items selected!</h1>");
+            response.getWriter().println("<h1>Error: No items selected</h1>");
             return;
         }
 
